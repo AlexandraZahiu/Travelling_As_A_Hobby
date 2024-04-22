@@ -1,0 +1,25 @@
+
+
+.container-people {
+    max-width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box-people {
+    width: 49%;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px; 
+
+
+    border-radius: 30px;
+background: #92a59d;
+box-shadow: inset 11px -11px 29px #4c5652,
+            inset -11px 11px 29px #d8f4e8;
+  }
+  

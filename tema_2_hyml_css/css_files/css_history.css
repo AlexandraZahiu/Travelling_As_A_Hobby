@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 800px) {
+    .hover07.column div {
+      max-width: 100%; /* Remove the maximum width on smaller screens */
+    }
+    .table1 {
+        display: block;
+      }
+  }
+  h1 {
+    text-align: center;
+    color: #274690;
+    font-size: 5vw; /* Use viewport width for font size */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Add a media query for smaller screens */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 7vw; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* Apply similar adjustments to other elements as needed */
+  
+  body {
+    --color: rgba(30, 30, 30);
+    --bgColor: rgba(245, 245, 245);
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--color);
+    background: var(--bgColor);
+  }
+  
+  /* Add more responsive styles for other elements */
+  
+  /* Add a media query for smaller screens */
+  @media (max-width: 600px) {
+    body {
+      padding: 1rem; /* Adjust padding for smaller screens */
+    }
+  
+    /* Add more adjustments as needed */
+  }
+  
+  /* ... Your existing styles ... */
+  
+  /* Add a media query for smaller screens */
+  @media (max-width: 768px) {
+    .header a {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* ... Continue with adjustments for other elements ... */
+  
